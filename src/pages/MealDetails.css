@@ -1,0 +1,263 @@
+  .details-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.breadcrumb {
+  background-color: #f26522;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.section-header {
+  font-size: 20px;
+  color: #333;
+  border-bottom: 3px solid #f26522;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.details-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 768px) {
+  .details-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.meal-title {
+  margin-top: 0;
+  font-size: 26px;
+  color: #333;
+}
+
+.category-text {
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+}
+
+.category-text span {
+  color: #f26522;
+}
+
+.source-text {
+  font-size: 12px;
+  color: #888;
+  word-break: break-all;
+}
+
+.source-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.ingredients-box {
+  background-color: #f26522;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.ingredients-box h3 {
+  margin-top: 0;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 8px;
+}
+
+.ingredients-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.ingredient-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.num {
+  background: white;
+  color: #f26522;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+}
+.details-container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* الشريط البرتقالي */
+.breadcrumb {
+  background-color: #f26522;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumb a {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.section-header {
+  font-size: 20px;
+  color: #333;
+  border-bottom: 3px solid #f26522;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+}
+
+.details-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+@media (max-width: 768px) {
+  .details-card {
+    grid-template-columns: 1fr;
+  }
+}
+
+.image-container img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.meal-title {
+  margin-top: 0;
+  font-size: 26px;
+  color: #333;
+}
+
+.category-text {
+  font-size: 13px;
+  font-weight: bold;
+  color: #666;
+}
+
+.category-text span {
+  color: #f26522;
+}
+
+.source-text {
+  font-size: 12px;
+  color: #888;
+  word-break: break-all;
+}
+
+.source-text a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* صندوق المقادير البرتقالي */
+.ingredients-box {
+  background-color: #f26522;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.ingredients-box h3 {
+  margin-top: 0;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 8px;
+}
+
+.ingredients-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.ingredient-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.num {
+  background: white;
+  color: #f26522;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.loading {
+  text-align: center;
+  padding: 50px;
+  font-size: 18px;
+}
